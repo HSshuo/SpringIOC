@@ -6,7 +6,7 @@
 
 - 属性填充
 - 设置BeanName
-- 调用BeanPostProcessor的postProcessorBeforeInitialization方法
+- 调用BeanPostProcessor的postProcessorBeforeInitialization方法（**实例化之后初始化之前**，对bean的再加工，可以修改bean的属性、生成动态代理实例等等）
 - 执行InitializingBean的afterPropertiesSet方法 或者 init-method
 - 调用BeanPostProcessor的PostProcessorAfterInitialization方法
 - 执行destory-method销毁
