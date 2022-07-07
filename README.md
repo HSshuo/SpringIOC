@@ -11,5 +11,9 @@
 - 调用BeanPostProcessor的PostProcessorAfterInitialization方法
 - 执行destory-method销毁
 
-参考：[spring生命周期](https://blog.nowcoder.net/n/9343e7c4215547eb82fbe7fe8f0dc1a1)
-[原文出处、已经star](https://github.com/wangchirl/spring-source))
+参考：
+
+[spring生命周期](https://blog.nowcoder.net/n/9343e7c4215547eb82fbe7fe8f0dc1a1)
+
+
+[原文出处、已经star](https://github.com/wangchirl/spring-source)
